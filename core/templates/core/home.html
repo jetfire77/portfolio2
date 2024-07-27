@@ -1,0 +1,45 @@
+{% extends 'core/base.html' %} {% block content %} {% load static %}
+
+<div class="mt-5">
+  <!-- img-thumbnail gives responsive image -->
+
+  <div class="text-center">
+    <img
+      src="{% static 'core/images/selfPic.jpg' %}"
+      alt="ProfilePic"
+      class="img-thumbnail"
+      width="250px"
+      height="150px"
+    />
+  </div>
+
+  <div class="text-white mt-5 mx-5 text-justify">
+    <h1 class="font-weight-bold st-font">Hello,</h1>
+    <div>
+      <p>
+        I am <b class="text-warning">Tanuj Kumar</b>, an M.Tech graduate from
+        the
+        <b class="text-warning">Indian Institute of Information Technology</b>
+        with a CGPA of 8.72. With a strong foundation in computer science, I am
+        an experienced full-stack engineer proficient in C, C++, Python, Java,
+        HTML, CSS, Bootstrap, React JS, and ASP.NET Core MVC. Skilled in
+        software development, data analysis, and problem-solving, I specialize
+        in problem solving using C++ and machine learning. Notable projects
+        include the Flamingo Project, where I enhanced accuracy from 29% to 41%,
+        and the development of the Book Library and Notes Web Application,
+        utilizing MVC architecture and React JS. I have a proven track record of
+        delivering high-quality software solutions both individually and
+        collaboratively. Additionally, I am certified in Machine Learning, C++,
+        and Python programming.
+      </p>
+    </div>
+  </div>
+  <div class="text-center">
+    <a href="{% url 'contact' %}" class="btn btn-outline-warning my-3 mr-5"
+      >Hire Me</a
+    >
+    <a href="{% url 'contact' %}" class="btn btn-outline-info my-3">Contact</a>
+  </div>
+</div>
+
+{% endblock content %}

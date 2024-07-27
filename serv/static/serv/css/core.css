@@ -1,0 +1,29 @@
+/* Font */
+
+.st-font{
+
+    font-family: "Satisfy";
+}
+
+html,
+body{
+    height: 100%;
+}
+
+.container-fluid{
+    min-height: 100%;
+}
+/* body {
+
+    background-color: blue;
+
+}
+
+h1{
+
+    color: beige;
+}
+
+nav{
+    color: pink
+} */

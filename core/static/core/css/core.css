@@ -1,0 +1,55 @@
+/* Font */
+
+.st-font{
+
+    font-family: "Satisfy";
+}
+
+html,
+body{
+    height: 100%;
+}
+
+.container-fluid{
+    min-height: 100%;
+}
+/* body {
+
+    background-color: blue;
+
+}
+/* Srevice Icon Title color*/
+.sitc{
+    color: gold
+}
+
+
+ 
+
+a.nav-link{
+
+    color:whitesmoke;
+    
+
+}
+
+
+ /* to give hover effect on link on sidebar */
+a.nav-link:hover{
+
+    color:rgb(1, 0, 0);
+    background-color : #e9cd79;
+
+}
+
+/* to active the link which we select on side bar */
+a.nav-link.active{
+
+    color:rgb(1, 0, 0);
+    background-color : #ffc107;
+    font-weight: bold;
+
+}
+
+
+
